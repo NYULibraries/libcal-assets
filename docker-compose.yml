@@ -9,7 +9,7 @@ x-volumes: &default-volumes
     - ./babel.config.js:/app/babel.config.js
 
 services:
-  build:
+  compile:
     build: .
     image: libcal-assets
     command: yarn build:prod
