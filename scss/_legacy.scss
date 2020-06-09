@@ -1,0 +1,126 @@
+// This was the CSS in place on the system before we started working in this dev environment
+// should eventually be deleted
+
+
+/* elements in classes to be changed */
+.topnav{
+	display: block;
+	padding: 13px 12px;
+	background-color: rgb(232, 232, 232);
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.hp_header, #eventh1 {
+	display: block;
+	margin-top: 12px;
+}
+.hp_header h1, #eventh1{
+	font-size: 20px !important;
+	font-family: Montserrat, Helvetica, arial, sans-serif !important;
+}
+.sysname, .syshyphen, .systemtagline{
+	margin: 2px;
+}
+.systemtagline{
+	font-size: 100% !important;
+}
+.stitle{
+	background-image: none;	
+	background-color: rgb(232, 232, 232);
+	text-align: left;
+	padding: 10px 0px 4px 12px;
+	margin-bottom: 0px !important;
+	font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+#content{
+	padding: 0px;
+}
+
+#contentleft, #contentcenter, #contentright{
+	display: block;
+	float: left;
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+	}
+
+#contentleft, #contentcenter, #contentright {
+	margin-top: 8px;
+}
+		
+#contentleft {
+	margin-left: 10px;
+}
+
+#contentright{
+	background-color: #fff;
+	}
+
+#contentxwide{
+	background-image: none;
+}
+/* inside #content elements */
+
+.headerbox h2{
+	color: #000 !important;
+	font: 14px Montserrat, Helvetica, arial, sans-serif !important;
+	display: block;
+	}
+
+.headerbox{
+	background-image: none !important;
+	background-color: #bbbbbb;
+	border-radius: 0px !important;
+	margin-bottom: 0px !important;
+	
+}
+.outerbox{
+	background-color: #bbbbbb;
+	margin-right: 0px;
+	padding: 2px;
+}
+
+#footer{
+	border-top: none !important;
+	width: 80%;
+	margin: 10px 10px 0px 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	font-size: 12px !important;
+	font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif !important;
+}
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 100%;
+    color: #000;
+    border-radius: .25em;
+}
+.label-default {
+   background-color: #FFF
+}
+.label.label-rm-avail {
+   color: #000;
+}
+.label-rm-avail {
+    background-color: #22B14C;
+}
+.lc_rm_a {
+    background-color: #22B14C;
+    color: #000000;
+}
+.lc_rm_t {
+    background-color: #F59F16;
+}
+.lc_rm_b {
+    background-color: #EDEDED
+}
+.dsclass {
+    frameborder: 0px !important;
+    height: 900 !important;
+    width: 100% !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+}

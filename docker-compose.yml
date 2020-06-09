@@ -1,0 +1,26 @@
+version: '3.7'
+
+x-volumes: &default-volumes
+  volumes:
+    - ./dist:/app/dist
+    - ./js:/app/js
+    - ./scss:/app/scss
+    - ./webpack.config.js:/app/webpack.config.js
+    - ./babel.config.js:/app/babel.config.js
+
+services:
+  build:
+    build: .
+    image: libcal-assets
+    command: yarn build:prod
+    environment:
+      NODE_ENV: ${NODE_ENV:-production}
+    # <<: *default-volumes
+  
+  watch:
+    build: .
+    image: libcal-assets
+    command: yarn build:dev:watch
+    <<: *default-volumes
+
+    
