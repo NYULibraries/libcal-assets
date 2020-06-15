@@ -2,6 +2,7 @@
 @import 'variables';
 @import 'colors';
 @import 'mixins';
+@import 'footer';
 
 body {
 	padding-left: 0;
@@ -23,50 +24,4 @@ body {
 
 h1, h2, h3, h4 {
 	@extend .heading;
-}
-
-// .system-footer-container {
-//     background: $text_black;
-//   }
-  
-
-  .public-footer-container {
-    background-color: $text_black;
-    text-align: center;
-  }
-
- #s-lc-public-footer {
-    //display: flex;
-    background-color: $text_black;
-    border-top: none;
-    margin: 0 auto;
-    font-size: 100%;
-    color: $text_footer_gray;
-    padding: 45px 0 0 0;
-    //flex-direction: column;
-    line-height: 1.75;
-}
- 
-#s-lc-public-footer-admin-links,
-#s-lc-public-footer-brand,
-#s-lc-footer-support-link,
-#s-lc-language,
-.public-footer-container {
-    a {
-        color: $text_footer_dark_gray;
-        text-decoration: underline;
-        &:hover {
-            color: $text_footer_white;
-        }
-    }
-    select {
-        color: $text_black;
-    }
-    select option {
-        color: $text_black;
-    }
-}
-
-#s-lc-language {
-    padding: 7px;
 }
