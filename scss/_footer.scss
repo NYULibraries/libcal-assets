@@ -12,6 +12,7 @@ body .container {
   line-height: 1.75;
 }
 
+#s-lc-public-footer-print-link,
 #s-lc-public-footer-admin-links,
 #s-lc-public-footer-brand,
 #s-lc-footer-support-link,
@@ -52,19 +53,19 @@ body .container {
   text-align: center;
   padding-bottom: 45px;
 
-  @media only screen and (max-width: 830px){
+  @media only screen and (max-width: $bp_mobile_footer){
     width: 87vw;
   }
 
-  @media only screen and (min-width: 831px){
+  @media only screen and (min-width: $bp_footer_small){
     width: 722px;
   }
   
-  @media only screen and (min-width: 992px){
+  @media only screen and (min-width: $bp_footer_medium){
     width: 942px;
   }
   
-  @media only screen and (min-width: 1200px){
+  @media only screen and (min-width: $bp_footer_full){
     width: 1142px;
   }
 }
