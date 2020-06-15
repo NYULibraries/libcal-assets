@@ -1,12 +1,5 @@
-// Comment out the background-color for the footer containers 
-// until we standardize all pages on a single template
-// .system-footer-container {
-//     background: $text_black;
-//   }
-
 body .container {
   padding: 1em 1em 0em 1em !important ;
-  margin: auto;
 }
 
 #s-lc-public-footer {
@@ -17,10 +10,6 @@ body .container {
   color: $text_footer_gray;
   padding: 45px 0 0 0;
   line-height: 1.75;
-}
-
-#s-lc-language {
-  padding: 7px 0px 10px 0px;
 }
 
 #s-lc-public-footer-admin-links,
@@ -43,40 +32,41 @@ body .container {
   }
 }
 
+#s-lc-language {
+  padding: 7px 0px 10px 0px;
+}
+
 #s-lc-public-cust-footer {
   width: max-content;
   margin: auto;
-}
-
-.public-footer-container {
-  background-color: $text_black;
-  text-align: center;
-  padding-bottom: 45px;
 }
 
 @media only screen and (max-width: 830px){
   footer {
     width: 87vw;
   }
-  .public-footer-container {
+}
+
+.public-footer-container {
+  background-color: $text_black;
+  text-align: center;
+  padding-bottom: 45px;
+
+  @media only screen and (max-width: 830px){
     width: 87vw;
   }
-}
 
-@media only screen and (min-width: 831px){
-  .public-footer-container {
+  @media only screen and (min-width: 831px){
     width: 722px;
   }
-}
-
-@media only screen and (min-width: 992px){
-  .public-footer-container {
+  
+  @media only screen and (min-width: 992px){
     width: 942px;
   }
-}
-
-@media only screen and (min-width: 1200px){
-  .public-footer-container {
+  
+  @media only screen and (min-width: 1200px){
     width: 1142px;
   }
 }
+
+
