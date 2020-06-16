@@ -1,9 +1,9 @@
-header {
-  .container {
-    padding: 0;
-  }
+header.header {
   &.header {
     background-color: $nyu_purple;
+    div.container {
+      padding: 0;
+    }
   }
   div.logo {
     margin: 0;
