@@ -36,13 +36,13 @@
 #s-lc-public-cust-footer {
   width: max-content;
   margin: auto;
-  @media only screen and (max-width: $bp_footer_mobile){
+  @include max-width($bp_footer_mobile){
     margin-left: 1em;
-    padding-left: 1em;
+    padding-left: 1.07em;
   }
 }
 
-@media only screen and (max-width: 830px){
+@include max-width(830px){
   footer {
     width: 87vw;
   }
@@ -53,20 +53,20 @@
   text-align: center;
   padding-bottom: 45px;
 
-  @media only screen and (max-width: $bp_footer){
+ @include max-width($bp_footer){
     width: 87vw;
   }
 
-  @media only screen and (min-width: $bp_footer_small){
-    width: 722px;
+  @include min-width($bp_footer_small){
+    width: 720px;
   }
   
-  @media only screen and (min-width: $bp_footer_medium){
-    width: 942px;
+  @include min-width($bp_footer_medium){
+    width: 940px;
   }
   
-  @media only screen and (min-width: $bp_footer_full){
-    width: 1142px;
+  @include min-width($bp_footer_full){
+    width: 1140px;
   }
 }
 
