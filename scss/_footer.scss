@@ -38,7 +38,7 @@
   margin: auto;
   @media only screen and (max-width: $bp_footer_mobile){
     margin-left: 1em;
-    padding-left: 1em;
+    padding-left: 1.07em;
   }
 }
 
@@ -58,15 +58,15 @@
   }
 
   @media only screen and (min-width: $bp_footer_small){
-    width: 722px;
+    width: 720px;
   }
   
   @media only screen and (min-width: $bp_footer_medium){
-    width: 942px;
+    width: 940px;
   }
   
   @media only screen and (min-width: $bp_footer_full){
-    width: 1142px;
+    width: 1140px;
   }
 }
 
