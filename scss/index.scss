@@ -21,6 +21,12 @@ body {
   .container {
     margin: 0 1em;
   }
+  .fc table{
+    font-size: $font_size_base;
+  }
+  #s-lc-eq-navform{
+    padding-bottom: 5px;
+  }
 }
 
 .heading{
@@ -30,4 +36,37 @@ body {
 
 h1, h2, h3, h4 {
 	@extend .heading;
+}
+
+h1#s-lc-public-header-title,
+h1{
+  font-family: $family_gotham_narrow;
+  font-size: 36px;
+  font-weight: $weight_light;
+}
+
+#equip_ .fc-toolbar.fc-header-toolbar h2,
+#equip_ .fc-left h2,
+.fc-toolbar h2,
+.s-lc-content-cal .fc-center h2,
+h2{
+  font-size: $font_size_large;
+  color: $text_dark_gray;
+  padding-top: 10px;
+}
+
+
+h3, h4{
+  font-size: $font_size_medium;
+
+  @include max-width($bp_mobile_body){
+    font-size: $font_size_base;
+  }
+}
+
+a {
+	color: $text_blue;
+	&:hover {
+		color: $text_blue;
+	}
 }
