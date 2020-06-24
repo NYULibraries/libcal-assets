@@ -1,0 +1,17 @@
+button,
+.btn,
+.btn-primary,
+form input[type='submit']{
+  background-image: none;
+  &:hover, &:active, &:focus {
+    text-decoration: underline;
+  }
+}
+
+#esqb_18742,
+.fc-button{
+  &, &:hover, &:hover:active, &:active, &:focus, &:active:focus {
+    background-color: $nyu_purple !important;
+    color: white !important;
+  }
+}

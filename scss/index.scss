@@ -7,6 +7,7 @@
 @import 'footer';
 @import 'skip_link';
 @import 'breadcrumb';
+@import 'buttons';
 
 body {
 	padding-left: 0;
@@ -72,11 +73,13 @@ a {
 	}
 }
 
+//centering h1
+.s-lc-header{
+  padding: 10px 10px 10px 0;
+}
+
 //centering date h2 in page using padding
 #equip_ .fc-toolbar.fc-header-toolbar h2, 
-#equip_ .fc-left h2, 
-.fc-toolbar h2, 
-.s-lc-content-cal 
-.fc-center h2, h2{
+#equip_ .fc-left h2{
   padding: 0px 0px 30px 0px;
 }
