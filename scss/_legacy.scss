@@ -117,6 +117,9 @@
 .lc_rm_b {
     background-color: #EDEDED
 }
+
+// This is definitely in use for Data Services classes
+// TODO: Figure out if it's necessary and how to replace if not
 .dsclass {
     frameborder: 0px !important;
     height: 900 !important;
