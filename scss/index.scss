@@ -45,6 +45,9 @@ h1{
   font-family: $family_gotham_narrow;
   font-size: 36px;
   font-weight: $weight_light;
+  small {
+    color: $text_title_black;
+  }
 }
 
 #equip_ .fc-toolbar.fc-header-toolbar h2,

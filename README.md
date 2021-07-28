@@ -21,7 +21,7 @@ There is no way in LibCal to host templates externally so we will just use this 
 Using an nginx proxy we can develop our styles and JS locally in realtime. To bring up the local proxy do the following:
 
 ```
-docker-compose compile
+docker-compose run compile
 docker-compose up dev
 # Visit localhost:8080
 ```
