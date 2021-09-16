@@ -86,3 +86,24 @@ a {
 #equip_ .fc-left h2{
   padding: 0px 0px 30px 0px;
 }
+
+//availability current time indicator styles
+.fc .fc-timeline-now-indicator-line {
+    margin: 0 -1px;
+    bottom: 0;
+    border-width: 0 0 0 3px;
+}
+
+.fc .fc-timeline-now-indicator-arrow, .fc .fc-timeline-now-indicator-line {
+    position: absolute;
+    top: 0;
+    border-style: solid;
+    border-color: #000
+}
+
+.fc .fc-timeline-now-indicator-arrow {
+    margin: 0 -6px;
+    border-width: 7px 6px 0 6px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
