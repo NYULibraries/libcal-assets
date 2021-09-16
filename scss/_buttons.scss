@@ -17,7 +17,7 @@ form input[type='submit']{
 }
 
 //standardize purple buttons
-a.btn.btn-primary, a.s-lc-item-more-info {
+.btn.btn-primary, a.btn.btn-primary, a.s-lc-item-more-info {
   background-color: $nyu_purple;
   border-color: $nyu_purple;
 }
