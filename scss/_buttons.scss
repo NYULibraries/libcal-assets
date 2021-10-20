@@ -17,7 +17,7 @@ form input[type='submit']{
 }
 
 //standardize purple buttons
-a.btn.btn-primary, a.s-lc-item-more-info {
+a.btn.btn-info, .btn.btn-info, .btn.btn-primary, a.btn.btn-primary, a.s-lc-item-more-info {
   background-color: $nyu_purple;
   border-color: $nyu_purple;
 }
@@ -29,4 +29,11 @@ a.s-lc-item-more-info {
   span.s-lc-info-label {
     background-color: transparent;
   }
+}
+
+// cancel bookings inline button
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
 }
