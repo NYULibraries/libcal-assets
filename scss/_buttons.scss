@@ -37,3 +37,9 @@ a.s-lc-item-more-info {
     background-color: #fff;
     border-color: #ccc;
 }
+
+// hide check-in / check-out buttons
+#s-lc-new-reservation-checkin,
+#s-lc-new-reservation-checkout {
+    display: none !important;
+}
