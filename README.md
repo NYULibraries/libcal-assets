@@ -2,7 +2,8 @@
 
 [![CircleCI](https://circleci.com/gh/NYULibraries/libcal-assets.svg?style=svg)](https://circleci.com/gh/NYULibraries/libcal-assets)
 
-Manage the CSS and JS for NYU Libraries' instance of SpringShare's LibCal product.
+Manage the CSS and JS for NYU Libraries' instance of SpringShare's LibCal product:
+[Library Classes & Workshops](https://nyu.libcal.com/)
 
 ## CSS
 
