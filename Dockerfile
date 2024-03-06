@@ -1,13 +1,15 @@
-FROM node:13-alpine
+FROM node:20-alpine
 
 ENV INSTALL_PATH /app
 ENV PATH $INSTALL_PATH/node_modules/.bin:$PATH
 
-ADD package.json yarn.lock /tmp/
-RUN cd /tmp && yarn install
-RUN mkdir -p $INSTALL_PATH && cp -a /tmp/node_modules $INSTALL_PATH
+COPY package.json yarn.lock /tmp/
+RUN cd /tmp && yarn install --frozen-lockfile \
+    && yarn cache clean \
+    && mkdir -p $INSTALL_PATH && cp -a /tmp/node_modules $INSTALL_PATH
 
-ADD . $INSTALL_PATH
+
+COPY . $INSTALL_PATH
 
 WORKDIR $INSTALL_PATH
 
