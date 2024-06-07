@@ -36,7 +36,10 @@ module.exports = {
             loader: 'extract-loader'
           },
           {
-            loader: 'css-loader?-url'
+            loader: 'css-loader',
+            options: {
+              url: true,
+            },
           },
           {
             loader: 'sass-loader'
