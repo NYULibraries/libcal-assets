@@ -78,13 +78,18 @@ a {
 	}
 }
 
+/* Online/In-Person pill background color (event page + listings) */
+.label.label-info.s-lc-eventcard-pill {
+  background-color: $background_eventcard_pill;
+}
+
 //centering h1
 .s-lc-header{
   padding: 10px 10px 10px 0;
 }
 
 //centering date h2 in page using padding
-#equip_ .fc-toolbar.fc-header-toolbar h2, 
+#equip_ .fc-toolbar.fc-header-toolbar h2,
 #equip_ .fc-left h2{
   padding: 0px 0px 30px 0px;
 }
