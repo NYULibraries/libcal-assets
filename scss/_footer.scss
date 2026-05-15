@@ -1,3 +1,7 @@
+@use 'colors' as *;
+@use 'variables' as *;
+@use 'mixins' as *;
+
 #s-lc-public-footer {
   background-color: $text_black;
   border-top: none;
