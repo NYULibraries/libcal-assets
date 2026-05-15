@@ -1,6 +1,6 @@
 machine-defaults: &machine-defaults
   machine:
-    image: ubuntu-2204:current
+    image: ubuntu-2404:current
   working_directory: ~/app
 
 aws_env: &aws_env
