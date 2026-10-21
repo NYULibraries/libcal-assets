@@ -13,6 +13,12 @@ All custom styles for LibCal start through the `scss/index.scss` entrypoint but 
 
 All custom Javascript fo LibCal start through the `js/index.js` entrypoint but can be split into multiple module files if necessary thanks to webpack.
 
+## Analytics
+
+Matomo (site 5) is loaded by `js/matomo.js`, which is part of `index.min.js`. It only tracks on `nyu.libcal.com`, so the local proxy sends no hits. If the Matomo snippet is still pasted in the LibCal admin, `js/matomo.js` does nothing, so a page view is never counted twice.
+
+Don't paste tracking code into the LibCal admin. The Custom JS/CSS box should only contain what is in `layouts/custom_js_css.html`.
+
 ## Layouts
 
 There is no way in LibCal to host templates externally so we will just use this repository as a copy of the templating work we have to do directly in the LibCal interface. **We treat these version-controlled layouts as the canonical source even though they are not automatically synced up with the application, this means that at any time we can override the live version with the version managed here.**
