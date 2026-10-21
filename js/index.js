@@ -1,3 +1,7 @@
+import { initMatomo } from './matomo';
+
+initMatomo();
+
 function loadNYUPerstareFonts() {
     const style = document.createElement('style');
     style.appendChild(document.createTextNode(`
